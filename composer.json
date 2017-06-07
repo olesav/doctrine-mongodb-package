@@ -1,0 +1,20 @@
+{
+    "name": "olesav/doctrine-mongodb-package",
+    "type": "component",
+    "description": "Package list for using Doctrine MongoDB ODM",
+    "authors": [
+        {
+            "name": "Oleksandr Savchenko",
+            "email": "dev.olsav@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "alcaeus/mongo-php-adapter": "^1.0",
+        "doctrine/mongodb": "dev-master",
+        "doctrine/mongodb-odm-bundle": "^3.2"
+    },
+    "repositories": [
+        {"url": "https://github.com/alcaeus/mongo-php-adapter", "type": "vcs"}
+    ]
+}
