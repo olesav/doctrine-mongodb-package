@@ -16,5 +16,12 @@
     },
     "repositories": [
         {"url": "https://github.com/alcaeus/mongo-php-adapter", "type": "vcs"}
-    ]
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        }
+    }
 }
